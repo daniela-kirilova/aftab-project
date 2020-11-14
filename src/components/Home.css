@@ -2,7 +2,7 @@
   background-image: url("../images/backgr.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 705px;
 }
 
 .text {
@@ -43,7 +43,7 @@
     background-image: url("../images/backgr.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 655px;
   }
   
   .text {
@@ -69,6 +69,7 @@
   }
   .texP h3{
     margin-top: 22px;
+
      
   }
   .goToContact {
@@ -87,7 +88,7 @@
       background-image: url("../images/backgr.png");
       background-size: cover;
       background-repeat: no-repeat;
-      height: 650px;
+      height: 655px;
     }
     
     .text {
@@ -131,11 +132,11 @@
       background-image: url("../images/backgr.png");
       background-size: cover;
       background-repeat: no-repeat;
-       height: 650px;
+      height: 655px;
     }
     
     .text {
-      padding-top: 70px;
+      padding-top: 40px;
       color: rgb(104, 96, 84);
       display: flex;
       justify-content: center;
@@ -151,20 +152,21 @@
       color: rgb(104, 96, 84);
       padding-left: 40px;
       padding-right: 40px;
-      padding-top: 25px;
-      font-size: 35px;
+      padding-top: 20px;
+      font-size: 26px;
       
     }
     .texP h3{
-      margin-top: 20px;
+      margin-top: 10px;
+      margin-bottom: 85px;
        
     }
     .goToContact {
       font-weight: bold;
-      font-size: 25px;
+      font-size: 20px;
       font-style: italic;
       color: rgb(187, 161, 121);
-      
+      margin-bottom: 20px;
     }
   
   }

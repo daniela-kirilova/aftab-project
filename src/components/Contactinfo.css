@@ -26,25 +26,25 @@
 }
 @media only screen and (max-width: 768px) {
   .contact-wrapper {
-    padding-top: 20px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 15px;
     display: flex;
     font-size: 16pt;
     border-style: groove;
     border-width: 5px 2px;
     border-radius: 25px;
-    height: 170px;
+    height: 150px;
     width: 225px;
   }
   .icon-text i {
     font-size: xx-large;
-    padding-right: 3px;
+    padding-right: 5px;
   }
   .contact-description {
-    font-size: 12pt;
-    width: 170px;
-    margin-left: 50px;
-  }
+    font-size: 18px;
+    width: 180px;
+    margin-left: 40px;
+   }
 }
 @media only screen and (max-width: 376px) {
   .contact-wrapper {
@@ -65,41 +65,13 @@
     color: rgb(146, 130, 100);
   }
   .titleCtct {
-    margin-left: 22px;
+    margin-left: 25px;
   }
   .contact-description {
     color: rgb(88, 78, 60);
-    font-size: 20pt;
+    font-size: 18pt;
     display: flex;
-    padding-left: 15px;
-    padding-right: 10px;
+    padding-left: 4px;
+    padding-right: 15px;
   }
 }
-/* 
-@media only screen and (max-width: 1024px) {
-  .contact-wrapper {
-    padding-top: 30px;
-    padding-bottom: 5px;
-    margin: auto;
-    display: flex;
-    font-size: 23pt;  
-    border-style: groove;
-    border-radius: 35px;
-    height: 350px;
-    width: 490px;
-    color: rgb(75, 70, 62);
-  }
-  .icon-text i {
-    font-size: xxx-large;
-    padding-left: 100px;
-  }
-  .titleCtct {
-    margin-left: 22px;
-  }
-  .contact-description {
-    font-size: 20pt;
-    display: flex;
-    padding-left: 15px;
-    padding-right: 10px;
-  }
-} */
