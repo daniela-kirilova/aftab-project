@@ -1,0 +1,22 @@
+ 
+.background-contact{
+    background-image: url('../images/lamp.jpg');
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+    margin:0px; 
+    margin-bottom: 4em;
+    filter: contrast(1) grayscale(50%);
+}
+
+@media only screen and (max-width: 768px) {
+    .background-contact{
+        background-image: url('../images/lamp.jpg');
+        background-repeat: no-repeat;
+        height: 180px;         
+        background-size: cover;
+        margin:0px; 
+        filter: contrast(1) grayscale(50%);
+    }
+ 
+ }

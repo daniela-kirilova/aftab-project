@@ -1,0 +1,51 @@
+.contact-wrapper {
+  padding-top: 60px;
+  padding-bottom: 5px;
+  margin: auto;
+  display: flex;
+  font-size: 28pt;
+  
+  border-style: groove;
+  border-radius: 35px;
+  height: 360px;
+width:390px;
+color: rgb(75, 70, 62);
+ }
+.icon-text i {
+  font-size: xxx-large;
+    padding-left: 150px;
+
+}
+.titleCtct{
+margin-left: 50px;
+
+}
+.contact-description {
+  font-size: 22pt;
+  display: flex;   
+padding-left: 22px;
+padding-right: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .contact-wrapper {
+    padding-top: 20px;
+    padding-bottom: 5px;
+     display: flex;
+    font-size: 16pt;
+    border-style: groove;
+    border-width: 5px 2px;
+    border-radius: 25px;
+    height: 170px;
+  width: 225px;
+  
+  }
+  .icon-text i {
+    font-size: xx-large;
+    padding-right: 3px;
+  }
+  .contact-description {
+    font-size: 12pt;
+    width: 170px;
+    margin-left: 50px;
+  } 
+}

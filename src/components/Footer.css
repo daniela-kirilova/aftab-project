@@ -1,0 +1,57 @@
+footer{
+     background-color: #343a40 ;   
+    height: 65px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;     
+    text-align: center;
+   }
+  
+  .insta{ 
+     height: 60px;
+     padding-top: 6px;
+     padding-bottom: 5px;
+   }
+  .footer-wrapper{ 
+  display: flex;
+    justify-content: center;
+ 
+  }
+  .footer-icons{
+    padding-top: 20px;
+    font-size: 20pt;
+    color: rgb(187, 161, 121);
+padding-right: 1.5em;
+padding-left: 1.5em;
+   }
+   @media only screen and (max-width: 478px) {
+   
+    footer{
+      background-color: #343a40 ;   
+     height: 60px;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;     
+     text-align: center;
+    }
+   
+   .insta{ 
+      height: 50px;
+      padding-top: 3px;
+      padding-bottom: 1px;
+    }
+   .footer-wrapper{ 
+   display: flex;
+     justify-content: center;
+  
+   }
+   .footer-icons{
+     padding-top: 4px;
+     font-size: 15pt;
+     color: rgb(187, 161, 121);
+ padding-right: 1.5em;
+ padding-left: 1.5em;
+    }
+   }
