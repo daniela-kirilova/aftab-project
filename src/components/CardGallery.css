@@ -53,8 +53,8 @@ body {
   font-size: 26px;
   font-weight: bold;
   position: relative;
-  padding-bottom: 20px; 
-  top: 148px;
+  padding-bottom: 25px; 
+  top: 21px;
   color: rgb(104, 96, 84);
   display: flex;
   justify-content: center;
@@ -110,13 +110,13 @@ body {
     text-align: right;
   }
   .productInfo {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;   
     color: rgb(104, 96, 84);
    display: flex;
    justify-content: center;
    position: relative;
-   top: 122px;
+   top: 21px;
   }
 }
 @media only screen and (max-width: 478px) {
@@ -167,9 +167,9 @@ body {
     text-align: right;
   }
   .productInfo {
-    font-size: 19px;
+    font-size: 15px;
     font-weight: bold;
-    top: 122px;
+    top: 20px;
     color: rgb(104, 96, 84);
    display: flex;
    justify-content: center;

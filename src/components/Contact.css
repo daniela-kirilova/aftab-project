@@ -6,13 +6,6 @@ flex-wrap: wrap;
 margin-left: 500px;
 margin-right: 500px;
 }
-
-.message{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5em;
-}
-
 .callus{
     color: rgb(146, 130, 100);
     display: flex;
@@ -34,7 +27,7 @@ margin-right: 500px;
 .visitUs{
     display: flex;
     justify-content: center;
-    color: rgb(104, 96, 84);
+    color: rgb(146, 130, 100);
 }
 .adress{
     font-size: 18pt;
@@ -43,39 +36,93 @@ margin-right: 500px;
     padding-left: 44px;
     padding-right: 44px;
 }
-@media only screen and (max-width: 768px) {
-  
+@media only screen and (max-width: 375px) {
     .contact-data{ 
         display: flex;
-    padding-bottom: 3em;
-    padding-top: 2em;
-    margin-left: 10px ;
-margin-right:10px ;
-}
-    .adress{
-        font-size: 13pt;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 44px;
-        padding-right: 44px;
+    padding-bottom: 1em;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 150px;
     }
- 
-    .map{
-        display: flex;
-      margin-left: 5px !important;
-         width:100%;
-        height: 500px;
-        margin-top: 25px;
-        border:0px;
-    }
+    
+  
     .callus{
-        color: rgb(146, 130, 100);
         display: flex;
         justify-content: center;
-     font-size: 14pt;
-     padding-bottom: 10px;
-        padding-top: 20px;
-    
+        font-size: 26px;
+        padding-bottom: 22px;
+        margin-top: 32px;
     }
     
+    .map{
+         
+        margin-left: 15px;
+        display: flex;
+        width: 91%;
+        height: 559px;
+        border: 0px;
+        padding-bottom: 70px;
+    }
+    .visitUs{
+        display: flex;
+        justify-content: center;
+        color: rgb(104, 96, 84);
+     }
+    .adress{
+        font-size: 17px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    padding-right: 22px;
+    text-align: right;
+    }
 }
+
+/* @media only screen and (max-width: 1024px) {
+
+.contact-data{ 
+    display: flex;
+padding-bottom: 1em;
+flex-wrap: wrap;
+margin-left: 200px;
+margin-right: 250px;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+}
+
+.callus{
+    color: rgb(146, 130, 100);
+    display: flex;
+    justify-content: center;
+ font-size: 35px;
+ padding-bottom: 53px;
+    
+
+}
+
+.map{
+    display: flex;
+  margin-left: 55px;
+     width:90%;
+    height: 600px;
+    border:0px;
+    padding-bottom: 70px;
+}
+.visitUs{
+    display: flex;
+    justify-content: center;
+    color: rgb(104, 96, 84);
+ }
+.adress{
+    font-size: 25px;
+    padding-top: 65px;
+    padding-bottom: 25px;
+    padding-left: 44px;
+    padding-right: 14px;
+    text-align: right;
+}
+} */

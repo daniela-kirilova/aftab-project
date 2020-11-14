@@ -1,14 +1,11 @@
 .search {
-  margin-top: 10px;
-  width: 45%;
+   width: 40%;
   padding: 10px;
   text-align: right;
   border-radius: 10px;
   border-color: rgb(148, 130, 96);
  }
-hr {
-  width: 60%;
-}
+ 
 .searchInput{
     display: flex;
     justify-content: center;
@@ -21,8 +18,8 @@ hr {
 .icon-search{
     color: rgb(148, 130, 96);
     position: relative;
-    left: 25px;
-    top: 25px;
+    left: 30px;
+    top: 18px;
 font-size: larger;
 
 }
@@ -41,7 +38,7 @@ font-size: larger;
         color: rgb(148, 130, 96);
         position: relative;
         left: 25px;
-        top: 20px;
+        top: 13px;
     font-size: larger;
     
     }

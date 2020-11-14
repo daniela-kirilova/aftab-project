@@ -12,10 +12,10 @@ export default class Gallery extends Component {
   render() {
     return (
       <section className="gallery">
-     <h2><a className="productInfo" href="/contact" > برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید</a></h2>
+      <h2><a className="productInfo" href="/contact" > برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید</a></h2>
 
      <Search/>
-
+   
       </section>
     );
   }

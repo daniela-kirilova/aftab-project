@@ -35,8 +35,9 @@ export default class Gallery extends Component {
             placeholder="برای جستجو عبارتی را تایپ کنید"
             onChange={this.handleChange}
           />
+          
         </div>
-        <hr />
+        
         <div>
           <div>
             {filtered.map((e, i) => {
