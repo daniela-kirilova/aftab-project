@@ -5,7 +5,6 @@ import Home from "./pages/Home"
 import Footer from "./components/Footer";
 import Gallerypage from "./pages/Gallerypage"
 import Contactpage from "./pages/Contactpage"
-import "bootstrap/dist/css/bootstrap.css";
 import "./App.css"
 class App extends Component {
   render() {
