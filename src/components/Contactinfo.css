@@ -48,7 +48,7 @@
 }
 @media only screen and (max-width: 376px) {
   .contact-wrapper {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 5px;
     margin: auto;
     display: flex;
